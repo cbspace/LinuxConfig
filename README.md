@@ -1,12 +1,12 @@
-### Some Useful Linux Config Files ###
+## Some Useful Linux Config Files ##
 
-## Bash Aliases ##
+### Bash Aliases ###
 This file is stored in ~/ and is automatically loaded from ~/.bashrc
 
-#General Shell Commands:
+### General Shell Commands ####
 `up` - Go up one directory
 
-#Aliases and functions for git commands:
+#### Aliases and functions for git commands ####
 `status` - Git status
 
 `show` - Git show
