@@ -7,10 +7,9 @@ function clone() {
   git clone -- "https://github.com/$1/$2.git" && cd -- "./$2"
 }
 
-# Uses $1 for branch name
-# TODO: do it automatically
 function push() {
-  git push -u origin -- $1
+  BRANCH = $(git branch --show-current)
+  git push -u origin -- $BRANCH
 }
 
 function commit() {
