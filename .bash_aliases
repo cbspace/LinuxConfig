@@ -8,8 +8,11 @@ function clone() {
 }
 
 function push() {
-  BRANCH = $(git branch --show-current)
-  git push -u origin -- $BRANCH
+  BRANCH=$(git branch --show-current)
+  if [ $? -eq 0 ]
+  then
+    git push -u origin -- $BRANCH
+  fi
 }
 
 function commit() {
