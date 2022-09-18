@@ -18,3 +18,7 @@ function push() {
 function commit() {
  git commit -a -m "$1"
 }
+
+function mkcd() {
+  mkdir -p "$@" && cd "$@"
+}

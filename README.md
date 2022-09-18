@@ -6,6 +6,8 @@ This file is stored in ~/ and is automatically loaded from ~/.bashrc
 #### General Shell Commands ####
 `up` - Go up one directory
 
+`mkcd [dir name]` - Make new directory and cd into new directory
+
 #### Aliases and functions for git commands ####
 `status` - Git status
 
