@@ -1,4 +1,5 @@
 alias up="cd .."
+alias lsd="ls -ald .*/ && ls -ald */"
 
 alias status="git status"
 alias show="git show"
