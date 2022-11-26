@@ -3,6 +3,7 @@ alias lsd="ls -ald .*/ && ls -ald */"
 
 alias status="git status"
 alias show="git show"
+alias pull="git pull"
 
 function clone() {
   git clone -- "https://github.com/$1/$2.git" && cd -- "./$2"
