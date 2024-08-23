@@ -1,7 +1,9 @@
 ## Some Useful Linux Config Files ##
 
 ### Bash Aliases ###
-This file is stored in ~/ and is automatically loaded from ~/.bashrc
+This file is stored in ~/ and is automatically loaded from ~/.bashrc. To apply these changes
+you need to copy the new .bashrc file to ~/ then either re-open the terminal or run: 
+`source ~/.bashrc`
 
 #### General Shell Commands ####
 `up` - Go up one directory
@@ -9,6 +11,8 @@ This file is stored in ~/ and is automatically loaded from ~/.bashrc
 `lsd` - List all directories in current directory (including hidden)
 
 `mkcd [dir name]` - Make new directory and cd into new directory
+
+`updall` - Performs apt update/upgrade and snap updates
 
 #### Aliases and functions for git commands ####
 `status` - Git status
