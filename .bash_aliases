@@ -10,8 +10,12 @@ function clone() {
   git clone -- "https://github.com/$1/$2.git" && cd -- "./$2"
 }
 
-function clonehf() {
+function clonehfs() {
   git clone -- "https://huggingface.co/spaces/$1/$2" && cd -- "./$2"
+}
+
+function clonehf() {
+  git clone -- "https://huggingface.co/$1/$2" && cd -- "./$2"
 }
 
 function push() {
