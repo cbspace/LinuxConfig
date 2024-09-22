@@ -10,6 +10,10 @@ function clone() {
   git clone -- "https://github.com/$1/$2.git" && cd -- "./$2"
 }
 
+function clonehf() {
+  git clone -- "https://huggingface.co/spaces/$1/$2" && cd -- "./$2"
+}
+
 function push() {
   BRANCH=$(git branch --show-current)
   if [ $? -eq 0 ]
