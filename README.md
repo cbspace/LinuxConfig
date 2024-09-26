@@ -15,7 +15,7 @@ you need to copy the new .bashrc file to ~/ then either re-open the terminal or 
 
 `mkcd [dir name]` - Make new directory and cd into new directory
 
-### System Commands ###
+#### System Commands ####
 
 `updall` - Performs apt update/upgrade and snap updates
 
