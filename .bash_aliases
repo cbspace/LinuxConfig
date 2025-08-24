@@ -7,6 +7,8 @@ alias show="git show"
 alias pull="git pull"
 
 alias nsmi="watch -n 2 nvidia-smi"
+alias base="conda activate base"
+alias tf="conda activate tf"
 
 function clone() {
   git clone -- "https://github.com/$1/$2.git" && cd -- "./$2"
