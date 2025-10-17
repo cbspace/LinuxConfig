@@ -1,6 +1,6 @@
 alias up="cd .."
 alias lsd="ls -ald .*/ && ls -ald */"
-alias updall="sudo apt-get update && sudo apt-get upgrade && sudo snap refresh"
+alias updall="sudo apt-get update && sudo apt-get upgrade && sudo apt autoremove && sudo snap refresh"
 
 alias status="git status"
 alias show="git show"
